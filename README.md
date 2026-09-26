@@ -67,14 +67,10 @@ npm run build
 - [ ] Streak ระบบเล่นติดต่อกัน 7 วัน
 - [ ] เพิ่มสาขาวิศวกรรมที่ไม่ใช่ควบคุม (คอมพิวเตอร์ พลังงาน ฯลฯ)
 
-## หมายเหตุสำคัญ: มีโฟลเดอร์ซ้ำหลายชุดใน D:\
+## Repository
 
-ระหว่างค้นหาพบโฟลเดอร์โค้ดของแอปนี้ **5 ชุด** กระจายอยู่ใน D:\ ซึ่งน่าจะเป็นการสำรอง/ก็อปปี้ระหว่างพัฒนา:
+โค้ดนี้ push ขึ้น GitHub แล้วที่ [thanesvee/engineer-arena](https://github.com/thanesvee/engineer-arena)
 
-1. `D:\Engineer_Arena_เกมส์หุ่นยนต์ถามตอบวิศวกรรม\engineer-arena-v2-full\engineer-arena-v2\` ← **README นี้อยู่ที่นี่** (src/App.jsx ใหม่สุดและยาวสุด — 887 บรรทัด, แก้ไขล่าสุด 16 มิ.ย. 69 05:27)
-2. `D:\Engineer_Arena_เกมส์หุ่นยนต์ถามตอบวิศวกรรม\engineer-arena-v2\engineer-arena-v2\`
-3. `D:\Engineer_Arena_เกมส์หุ่นยนต์ถามตอบวิศวกรรม\engineer-arena-pwa\engineer-arena-pwa\`
-4. `D:\Engineer_Arena_เกมส์หุ่นยนต์ถามตอบวิศวกรรม\New deploy\engineer-arena-deploy\engineer-arena-v2\`
-5. `D:\2 Engineer-arena เกมส์\engineer-arena-deploy\engineer-arena-v2\`
+## หมายเหตุ: ประวัติการล้างโฟลเดอร์ซ้ำ
 
-แนะนำให้ตรวจสอบและลบโฟลเดอร์ที่ซ้ำซ้อนออก เหลือไว้เพียงชุดเดียวเพื่อไม่ให้สับสนว่าชุดไหนคือโค้ดล่าสุดที่ deploy จริงบน Netlify
+เดิมพบโฟลเดอร์โค้ดของแอปนี้ 5 ชุดกระจายอยู่ใน D:\ (สำรอง/ก็อปปี้ระหว่างพัฒนา) ตรวจสอบแล้วพบว่าเวอร์ชันล่าสุดจริง (mtime ของ `src/App.jsx` ใหม่สุด) อยู่ในชุด `New deploy` / `2 Engineer-arena เกมส์` ไม่ใช่ชุดนี้ตามที่เข้าใจตอนแรก จึงคัดลอก `App.jsx` เวอร์ชันล่าสุดมาไว้ในโฟลเดอร์นี้และ push ขึ้น GitHub แล้ว จากนั้นได้ย้ายโฟลเดอร์ซ้ำอีก 4 ชุด (`engineer-arena-v2`, `engineer-arena-pwa`, `New deploy`, `2 Engineer-arena เกมส์`) ไปที่ถังขยะ (Recycle Bin) ของ Windows เหลือไว้เพียงโฟลเดอร์นี้ชุดเดียวเป็นต้นทาง
